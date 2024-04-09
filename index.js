@@ -56,3 +56,11 @@ class BankBranch {
     return this.branchInfo;
   }
 }
+// 5. In the usage section:
+//    - Create instances of the `BankBranch` class, such as `branchA` and `branchB`, with different branch information.
+const branchA = new BankBranch({ name: "Branch A", location: "New York" });
+const branchB = new BankBranch({ name: "Branch B", location: "Los Angeles" });
+
+//    - Use the `getBranchInfo` method to retrieve branch information from the instances.
+console.log(branchA.getBranchInfo()); // Outputs: { name: "Branch A", location: "New York" }
+console.log(branchB.getBranchInfo()); // Outputs: { name:
