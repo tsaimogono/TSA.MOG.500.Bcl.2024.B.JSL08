@@ -64,3 +64,5 @@ const branchB = new BankBranch({ name: "Branch B", location: "Los Angeles" });
 //    - Use the `getBranchInfo` method to retrieve branch information from the instances.
 console.log(branchA.getBranchInfo()); // Outputs: { name: "Branch A", location: "New York" }
 console.log(branchB.getBranchInfo()); // Outputs: { name:
+//    - Verify that `branchA` and `branchB` are both referring to the same instance by comparing them using `===`.
+console.log(branchA === branchB); // Outputs: true
