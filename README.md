@@ -54,4 +54,4 @@ Verifying Singleton Pattern: Compare branchA and branchB using the strict equali
 
 Conclusion
 This BankBranch class implementation enforces the Singleton pattern, ensuring that only one instance of the class exists throughout the application. This allows all parts of the application to access the same branch information consistently.
-Talk with Pi
+
