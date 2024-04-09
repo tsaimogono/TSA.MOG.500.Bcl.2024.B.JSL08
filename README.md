@@ -37,3 +37,21 @@ Design patterns like Singleton, Factory, and Observer can significantly improve 
 This challenge will test your ability to create a function with the Singleton Pattern. Woohoo! Your first design pattern!
 
 
+BankBranch Class with Singleton Pattern
+
+This JavaScript file contains the implementation of a BankBranch class that follows the Singleton design pattern. The class manages branch information and ensures that only one instance is created throughout the application.
+
+Class Structure
+Variable Declaration: let bankBranchInstance = null; - Declares a global variable to store the singleton instance of the BankBranch class.
+Class Definition: Defines a BankBranch class to manage branch information.
+Constructor: In the constructor, it checks if the bankBranchInstance variable is null. If null, it assigns the current instance to bankBranchInstance and returns it.
+Class Method: Adds a method called getBranchInfo() that returns the branch information stored in the singleton instance.
+
+Usage
+Creating Instances: Create branchA and branchB instances of the BankBranch class with different branch information.
+Accessing Branch Information: Use the getBranchInfo() method to retrieve and display branch information from both instances.
+Verifying Singleton Pattern: Compare branchA and branchB using the strict equality operator (===) to verify that both instances refer to the same singleton object.
+
+Conclusion
+This BankBranch class implementation enforces the Singleton pattern, ensuring that only one instance of the class exists throughout the application. This allows all parts of the application to access the same branch information consistently.
+Talk with Pi
